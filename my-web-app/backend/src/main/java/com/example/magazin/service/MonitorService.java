@@ -6,9 +6,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.ResourceAccessException;
 
 import com.example.magazin.model.Monitor;
-import com.example.magazin.repository.CalculatoareRepository;
 import com.example.magazin.repository.MonitoareRepository;
 
+@Service
 public class MonitorService {
     private final MonitoareRepository monitoareRepository;
 

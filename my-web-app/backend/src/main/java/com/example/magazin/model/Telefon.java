@@ -2,6 +2,7 @@ package com.example.magazin.model;
 
 import java.time.LocalDate;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,15 +15,19 @@ public class Telefon {
     @Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
-
     private String producator;
     private String model;
     private double pret;
+    @Column(name="dimensiune_diagonala")
     private int dimensiuneDiagonala;
+    @Column(name="memorie_interna")
     private int memorieInterna;
+    @Column(name="memorie_ram")
     private int memorieRAM;
+    @Column(name="sistem_operare")
     private String sistemOperare;
     private String culoare;
+    @Column(name="creation_date")
     private LocalDate creationDate;
 
     public Telefon(Integer id, String producator, String model, double pret, int dimensiuneDiagonala,
@@ -37,6 +42,10 @@ public class Telefon {
         this.sistemOperare = sistemOperare;
         this.culoare = culoare;
         this.creationDate = creationDate;
+    }
+
+    public Telefon(){
+        
     }
 
     public Integer getId() {

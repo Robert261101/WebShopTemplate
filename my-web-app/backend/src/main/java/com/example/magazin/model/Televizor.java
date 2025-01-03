@@ -2,6 +2,7 @@ package com.example.magazin.model;
 
 import java.time.LocalDate;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,14 +15,18 @@ public class Televizor {
     @Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
-    
     private String producator;
     private String model;
     private double pret;
+    @Column(name="dimensiune_diagonala")
     private int dimensiuneDiagonala;
+    @Column(name="tehnologie_display")
     private String tehnologieDisplay;
+    @Column(name="claritate_imagine")
     private String claritateImagine;
+    @Column(name="clasa_energetica")
     private String clasaEnergetica;
+    @Column(name="creation_date")
     private LocalDate creationDate;
 
     public Televizor(Integer id, String producator, String model, double pret, int dimensiuneDiagonala,
@@ -35,6 +40,10 @@ public class Televizor {
         this.claritateImagine = claritateImagine;
         this.clasaEnergetica = clasaEnergetica;
         this.creationDate = creationDate;
+    }
+
+    public Televizor(){
+
     }
 
     public Integer getId() {

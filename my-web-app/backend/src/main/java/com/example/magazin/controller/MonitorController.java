@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.magazin.model.Monitor;
 import com.example.magazin.repository.MonitoareRepository;
 import com.example.magazin.service.MonitorService;
-import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController
