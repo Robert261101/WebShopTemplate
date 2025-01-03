@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MagazinApplication<magazin>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.magazin.MagazinApplication",
+            "projectName": "magazin",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

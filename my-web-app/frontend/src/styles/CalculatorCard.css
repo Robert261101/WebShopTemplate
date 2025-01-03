@@ -1,0 +1,10 @@
+.calculator-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.calculator-card-actions button {
+    margin-right: 8px;
+}
