@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CalculatorCard from '../../components/Calculator/CalculatorCard';
-import SearchBar from '../../components/Calculator/SearchBar';
+import SearchBar from '../../components/SearchBar';
 import { getAllCalculators, deleteCalculator } from '../../services/calculatorService';
 import { useNavigate } from "react-router-dom";  // Importă useNavigate
 
