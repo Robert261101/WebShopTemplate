@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import CalculatorListPage from "./pages/Calculator/CalculatorListPage";
 import CalculatorAddPage from "./pages/Calculator/CalculatorAddPage";
 import CalculatorEditPage from "./pages/Calculator/CalculatorEditPage";
+
 import LaptopListPage from  "./pages/Laptop/LaptopListPage";
 import LaptopAddPage from "./pages/Laptop/LaptopAddPage";
 import LaptopEditPage from "./pages/Laptop/LaptopEditPage";

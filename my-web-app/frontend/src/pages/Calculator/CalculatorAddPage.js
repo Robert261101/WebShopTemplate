@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { addCalculator } from "../../services/calculatorService";
+import { addCalculator } from "../../services/CalculatorService";
 import CalculatorForm from "../../components/Calculator/CalculatorForm";
 
 function CalculatorAddPage() {

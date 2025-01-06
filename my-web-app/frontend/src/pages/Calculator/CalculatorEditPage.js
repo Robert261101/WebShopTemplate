@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { getCalculatorById, updateCalculator } from "../../services/calculatorService";
+import { getCalculatorById, updateCalculator } from "../../services/CalculatorService";
 import CalculatorForm from "../../components/Calculator/CalculatorForm";
 
 function CalculatorEditPage() {
