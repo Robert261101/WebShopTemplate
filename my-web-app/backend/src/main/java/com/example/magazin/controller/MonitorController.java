@@ -18,7 +18,7 @@ import com.example.magazin.service.MonitorService;
 
 @RestController
 @RequestMapping("/api/monitors")
-@CrossOrigin(origins = "http://loaclhost:3000")
+@CrossOrigin(origins = "http://localhost:3000")
 public class MonitorController {
     private final MonitorService monitorService;
     private final MonitoareRepository monitoareRepository;

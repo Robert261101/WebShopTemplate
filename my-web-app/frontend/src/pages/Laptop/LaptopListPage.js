@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import LaptopCard from '../../components/Laptop/LaptopCard';
+import LaptopCard from '../../components/Laptop/LaptopCard'
 import SearchBar from '../../components/SearchBar';
 import { getAllLaptops, deleteLaptop } from '../../services/LaptopService';
 import { useNavigate } from 'react-router-dom';
