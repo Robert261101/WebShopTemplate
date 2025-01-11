@@ -5,7 +5,7 @@ function LaptopCard({ laptop, onEdit, onDelete }) {
     return (
         <div className="laptop-card">
             <h3>{laptop.model}</h3>
-            <p>Producator: {laptop.Producator}</p>
+            <p>Producator: {laptop.producator}</p>
             <p>Preț: {laptop.pret} RON</p>
             <p>Tip Procesor: {laptop.tipProcesor}</p>
             <p>Memorie RAM: {laptop.memorieRAM}</p>
